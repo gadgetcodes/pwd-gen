@@ -1,0 +1,51 @@
+body {
+    background-color: #333;
+    margin: 0;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, Times, 'Times New Roman', serif
+  }
+  
+  .box {
+    background-color: #B3C0A4;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .copyWrapper {
+    background-color: #DCC48E;
+    color: black;
+    padding: 1rem;
+    border: 1px solid #333;
+    height: 2rem;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+  }
+  
+  .copyWrapper .password {
+    display: flex;
+    align-items: center;
+  }
+  .copyWrapper .copy {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;    
+    font-weight: bold;
+  }
+
+  .copyWrapper .copy:hover {
+    color: #708558;
+  }
+ 
